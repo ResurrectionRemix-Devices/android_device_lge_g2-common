@@ -147,3 +147,24 @@ TARGET_SPECIFIC_HEADER_PATH := device/lge/g2-common/include
 
 #Fix reboot when the screen is locked
 BOARD_NO_WIFI_HAL := true
+
+#RR Optimizations
+TARGET_TC_ROM := 4.9-linaro
+
+TARGET_TC_KERNEL := 4.8
+
+RROPTI := true
+
+RR_O3 := true
+
+RR_STRICT := true
+
+RR_GRAPHITE := true
+
+RR_KRAIT := true
+
+RR_PIPE := true
+
+RR_GCC_VERSION_EXP := $(TARGET_TC_ROM)
+
+RR_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
