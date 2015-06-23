@@ -150,7 +150,7 @@ BOARD_NO_WIFI_HAL := true
 #RR Optimizations
 TARGET_TC_ROM := 4.9-linaro
 
-TARGET_TC_KERNEL := 4.8
+TARGET_TC_KERNEL := 5.1
 
 RROPTI := true
 
