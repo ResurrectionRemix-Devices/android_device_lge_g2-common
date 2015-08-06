@@ -153,10 +153,15 @@ TARGET_SPECIFIC_HEADER_PATH := device/lge/g2-common/include
 BOARD_NO_WIFI_HAL := true
 
 #RR Optimizations
-TARGET_TC_ROM := 4.9-linaro
+TARGET_TC_ROM := 5.1
 
-TARGET_TC_KERNEL := 5.1
+TARGET_TC_KERNEL := 6.0
 
+USE_CLANG_QCOM := true
+
+USE_CLANG_QCOM_VERBOSE := true
+
+CLANG_QCOM_COMPILE_BIONIC := true
 
 RROPTI := true
 
