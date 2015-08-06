@@ -157,6 +157,7 @@ TARGET_TC_ROM := 4.9-linaro
 
 TARGET_TC_KERNEL := 5.1
 
+
 RROPTI := true
 
 RR_O3 := true
