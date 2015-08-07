@@ -118,6 +118,9 @@ BOARD_BLUEDROID_VENDOR_CONF := device/lge/g2-common/bluetooth/vnd_g2.txt
 # Fonts
 EXTENDED_FONT_FOOTPRINT := true
 
+# GPS
+TARGET_NO_RPC := true
+
 # Offmode Charging
 BOARD_CHARGER_ENABLE_SUSPEND := true
 COMMON_GLOBAL_CFLAGS += \
