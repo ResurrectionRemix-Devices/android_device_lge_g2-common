@@ -154,7 +154,7 @@ BOARD_NO_WIFI_HAL := true
 #RR Optimizations
 TARGET_TC_ROM := 5.1
 
-TARGET_TC_KERNEL := 6.0
+TARGET_TC_KERNEL := 6.0-uber-linaro
 
 USE_CLANG_QCOM := true
 
