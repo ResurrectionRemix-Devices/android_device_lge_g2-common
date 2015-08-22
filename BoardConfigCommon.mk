@@ -151,9 +151,6 @@ BOARD_USES_QC_TIME_SERVICES := true
 # Device headers
 TARGET_SPECIFIC_HEADER_PATH := device/lge/g2-common/include
 
-#Fix reboot when the screen is locked
-BOARD_NO_WIFI_HAL := true
-
 #RR Optimizations
 TARGET_TC_ROM := 5.1
 

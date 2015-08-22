@@ -53,19 +53,44 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.bt.bdaddr_path=/data/misc/bdaddr
 
+# Wifi Configuration
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0 \
-    wifi.supplicant_scan_interval=15
+    wlan.chip.vendor=brcm \
+    wlan.chip.version=bcm4335 \
+    wifi.lge.patch=true \
+    wlan.lge.concurrency=MCC \
+    wlan.lge.supportsimaka=yes \
+    wifi.lge.offdelay=false \
+    wifi.lge.offloading=true \
+    wifi.lge.aggregation=true \
+    wifi.lge.mhp=true \
+    wlan.lge.softap5g=true \
+    wlan.lge.dcf.enable=true
 
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.egl.recordable.rgba8888=1
 
+# Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.qualcomm.sensors.qmd=true \
-    ro.qc.sdk.sensors.gestures=true \
-    ro.qualcomm.sensors.pedometer=true \
-    ro.qualcomm.sensors.pam=true \
-    ro.qualcomm.sensors.scrn_ortn=true
+    ro.qti.sdk.sensors.gestures=true \
+    ro.qti.sensors.amd=true \
+    ro.qti.sensors.game_rv=true \
+    ro.qti.sensors.georv=true \
+    ro.qti.sensors.pam=true \
+    ro.qti.sensors.pedometer=true \
+    ro.qti.sensors.rmd=true \
+    ro.qti.sensors.smd=true \
+    ro.qti.sensors.step_counter=true \
+    ro.qti.sensors.step_detector=true \
+    ro.qti.sensors.tilt_detector=true \
+    ro.qti.sensors.cmc=false \
+    ro.qti.sensors.facing=false \
+    ro.qti.sensors.gtap=false \
+    ro.qti.sensors.tap=false \
+    ro.qti.sensors.tilt=false \
+    ro.qti.sensors.vmd=false \
+    ro.qti.sensors.wu=false
 
 # Sensor debugging
 # Valid settings (and presumably what they mean):
