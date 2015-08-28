@@ -154,7 +154,7 @@ TARGET_SPECIFIC_HEADER_PATH := device/lge/g2-common/include
 #RR Optimizations
 TARGET_TC_ROM := 5.1
 
-TARGET_TC_KERNEL := 6.0-uber-linaro
+TARGET_TC_KERNEL := 6.0
 
 RROPTI := true
 
