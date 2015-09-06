@@ -154,7 +154,7 @@ WITH_LZMA_OTA:= true
 
 
 #RR Optimizations
-TARGET_TC_ROM := 5.1
+TARGET_TC_ROM := 5.2
 
 TARGET_TC_KERNEL := 6.0
 
