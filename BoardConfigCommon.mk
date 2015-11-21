@@ -145,3 +145,6 @@ RR_PIPE := true
 TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
 
 RR_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
+
+
+-include vendor/cm/config/opti.mk
